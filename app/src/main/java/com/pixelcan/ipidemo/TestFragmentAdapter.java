@@ -15,7 +15,7 @@ import android.widget.TextView;
  * Created by David Pacioianu on 2/12/16.
  */
 
-class TestFragmentAdapter extends FragmentPagerAdapter {
+public class TestFragmentAdapter extends FragmentPagerAdapter{
     protected static final String[] CONTENT = new String[]{"This", "Is", "A", "Test",};
 
     private int mCount = CONTENT.length;
